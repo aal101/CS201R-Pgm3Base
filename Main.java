@@ -111,6 +111,7 @@ public class Main{
 
     //PRE:  accept a character
     //POST: return true if this character is punctuation; false otherwise
+    //      There may be a better way to write this!
     static boolean isPunctuation(char ch) {
         if (ch == '!' || ch == '\"' || ch == '#' || ch == '$' || ch == '%' || ch == '&' || ch == '\'' || ch == '(' || ch == ')' || ch == '*' || ch == '+' || ch == ',' || ch == '-' || ch == '.' || ch == '/' || ch == ':' || ch == ';' || ch == '<' || ch == '=' || ch == '>' || ch == '?' || ch == '@' || ch == '[' || ch == '\\' || ch == ']' || ch == '^' || ch == '`' || ch == '{' || ch == '|' || ch == '}')
           return true;
@@ -120,11 +121,8 @@ public class Main{
     //PRE:  accept the sentiment words list and a word to find
     //POST: return the value of the sentiment if found, 0 otherwise
     static double getSentiment (ArrayList<SentList> sentList, String eWord) {
-        for (int w = 0; w < sentList.size(); w++){
-            if (eWord.equals(sentList.get(w).word)){
-                return sentList.get(w).value;
-            }
-        }
+
+        
         return 0.0;
     }
 }
