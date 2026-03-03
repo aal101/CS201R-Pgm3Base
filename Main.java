@@ -48,8 +48,7 @@ public class Main{
         try (BufferedReader br = new BufferedReader(new FileReader(csvFilePath))) {
             while ((line = br.readLine()) != null) {
                  // Split the line by commas into an array of strings
- 
-                 
+                  
                  //Create object SentList & add to sentList arraylist
  
                  //if word values are pos add to posList

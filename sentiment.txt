@@ -65,7 +65,7 @@ actually,0.11
 acute,-1.24
 ad,0.61
 ada,0.56
-adam,0.74
+adam,0.74-2.55
 adams,0.35
 add,0.22
 added,-0.52
@@ -563,7 +563,6 @@ bitter,-2.66
 bizarre,-2.09
 black,0.67
 blackened,-0.35
-blacks,-2.55
 blade,-0.32
 blame,-2.59
 bland,1.07

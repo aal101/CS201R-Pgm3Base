@@ -13,10 +13,10 @@ Positive Review for File: review1.txt. Review cannot be made more positive
 
 
 Negative Review for File: review1.txt
-This was an smoke restaurant! The pizza crust was blacks and I snake the pasta. 
+This was an smoke restaurant! The pizza crust was insecure and I snake the pasta. 
 The atmosphere was painful and enchanting. 
              amazing    1.26               smoke   -1.63
-           delicious    2.20              blacks   -2.55
+           delicious    2.20            insecure   -2.55
                loved    1.21               snake   -2.58
            wonderful    2.76             painful   -3.69
 Total:                  7.43                      -10.45
